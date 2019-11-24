@@ -1,0 +1,238 @@
+Java - 
+setting up environment 
+jdk - eclipse 
+
+class 
+
+
+scope - where something starts and ends
+method/function 
+runnable - non runnable 
+
+public class testClass {
+
+public static void main(String args[]){
+ // statements 
+
+
+
+}
+
+
+}
+java class - 
+
+java file 
+10400 eaton place, VA 
+
+10400 eaton place, TX 
+
+testclass, package1
+
+testclass, package2 
+
+
+nested 
+(condition1 && conditon2 && condition3) - false
+
+or || 
+
+(condion1 || condition2 ) - true
+
+and - all conditions need to be true &&
+or - only condition need to be true  || 
+
+looping 
+
+for( initiazliae variable; conditional;increament or decreament operation) {
+
+
+
+
+}
+
+class will start 12:20 PM 
+
+
+getText();
+
+1. how to create a function - only if we create our own function
+
+2. how to use a function - selenium
+
+class will start 2:00 PM
+
+Will start with Functions 
+
+
+
+Structure Of a Function 
+
+input - whatever data function must required - input can be multiple - no input
+output - what data function is returing - output is only one - no output
+
+system - code we write in the scope of the function 
+
+public outputdatatype functioname(input/inputs){
+
+
+return outputdata; 
+}
+
+// take 2 integers and one string as an input 
+providing 1 boolean data as output 
+
+public boolean go(int x, int y, String name){
+
+
+
+return true; 
+}
+
+// it will have no output, will have no input 
+
+public void testfuntion(){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+// we want to create a function that will compare two numbers, if numberone is
+bigger than numbertwo it will return true or it will return false 
+
+input - 2 integers inputs
+output  - boolean 
+
+public boolean compare(int numberone, int number2){
+
+boolean test = true; 
+
+if(numberone>number2){
+
+test=true; 
+
+}
+
+else {
+
+
+test=false 
+}
+
+return test; 
+
+}
+
+
+
+
+
+
+
+
+
+
+facebook - 
+
+data - value - properties 
+do something - function 
+
+varaible - properties - name, username, password, age, birthday, static count
+function - chat, post, like, createnwaccount
+
+object - an user is an object 
+
+facebook bob = new facebook(); 
+facebook michael=new facebook(); 
+
+non-runnable class as a storge of function - 
+
+procedural programming - 
+OOP - 
+
+how to create a function
+how to use a function 
+
+// testing automation 
+
+url - address of the website - 
+www.google.com 
+
+get("www.google.com")
+
+get(String url){
+
+dfhljdfj
+dshdfld
+dflfhjldj
+
+
+}
+
+
+String getText
+
+// 
+
+
+
+
+jdk - java core library - system library 
+system.out.println(
+scanner sc=new scanner()
+
+library - jar file - non runnable classses with many many functions organized
+in different pacakges 
+
+3rd party libraries 
+
+selenium
+testng
+cucumber 
+static - no need to create an object
+
+non-static - need to create an object 
+
+selenium - non-static 
+testng - static 
+
+get("www.google.com")
+
+ifvisible
+
+
+anik@agile1tech.com 
+
+wednesday 2-5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
