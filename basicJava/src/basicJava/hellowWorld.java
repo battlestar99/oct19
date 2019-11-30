@@ -1,8 +1,14 @@
 package basicJava;
 
+import seleniumTest.SeleniumTest;
+
 public class hellowWorld {
 	
 	public static void main(String args[]) {
+		
+		
+		SeleniumTest st=new SeleniumTest();
+		
 		
 	
 		// datatype variableName=variable_value; 
