@@ -1,0 +1,293 @@
+1. review functions/methods 
+2. configure selenium
+3. how to find web elements 
+4. start using selenium commands 
+
+runnable class - main method of java 
+
+non-runnable class - no main method of java 
+OOP - 
+storage of functions - properties 
+
+input - system - output 
+
+input/no input - function - output 1/no output  
+
+package
+class
+public int findelement (int x, String name) {
+
+int num=17;
+
+return num;
+
+}
+
+
+
+// interest rate 
+
+// you will get credit score, you need to write a function to find interest rate 
+
+public double findinterestRate(int creditscore){
+
+double interestrate; 
+
+if(creditscore==700){
+interestrate=1.5;
+}
+if(creditscore==750){
+interestrate=1;
+}
+if(creditscore==650){
+interestrate=2;
+}
+
+return interestRate; 
+
+}
+
+x=6
+x==6
+
+25000 x interestrate 
+we always create functions in non-runnable class
+and call them from runnable class 
+
+class will start 12: 25 PM 
+
+
+
+
+
+
+
+
+Selenium configuration : 
+
+1. you need to two libraries - jar files 
+
+2. you need a browser driver - google chrome
+
+selenium - tool 
+
+programming library - java - jar files
+
+browser - url for the application 
+www.facebook.com
+
+setting up selenium - automation testing library, browser automation 
+
+runnable class - test scripts 
+non-runnable class - page object model 
+
+1. java setup - jdk + eclipse 
+2. need the selenium libraries - java selenium , selenium standalone server 
+jar files 2.53 
+3.80 
+
+ 
+
+google chrome browser - where our test is going to run - where we test the applicaion
+
+chromedriver - is required to run a browser from our test script 
+
+
+
+
+
+web elements or web objects - are the components in any webpage that an user
+can interact with 
+
+text box
+button 
+link
+drop down 
+radio button
+checkbox
+windows
+iframe
+table 
+
+HTML - CSS 
+
+attributes  - value of attributes 
+
+name, address,age 
+name = bob
+name = michael 
+
+first name text box 
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="firstname" value="" aria-required="true" 
+placeholder="" aria-label="First name" id="u_0_f" aria-describedby="js_3zq">
+
+last name text box
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="lastname" value="" aria-required="true" 
+placeholder="" aria-label="Last name" id="u_0_h" aria-describedby="js_3do">
+
+
+id
+name
+
+xpath
+css selector
+
+
+
+
+
+
+
+
+
+
+Class - 6 
+
+java - class 
+.java - .class binary file 
+
+class {
+main method(){}
+
+
+}
+ 
+run - test scripts 
+not run - libraries - functions are already created and we are using the funtions
+page object model - object driven framework 
+
+1. java setup - jdk + eclipse IDE 
+2. selenium - 2 jar files - selenium java, selenium server standalone 
+choosing the driver we want to use - chromedriver, geckodriver, IEdriver
+3. need the browser you want to run test - google chrome 
+What are requirments of the module: 
+
+req 1 : 
+
+sign up module should have text box 
+for firstnrame, last name, mobile, password
+and drop down for selecting birthday, 
+gender selection radio button, should have
+a link for agreement, and hava sign up
+button 
+
+req 2: 
+
+sign up button should have written 
+"Sign Up" in the button 
+
+req 3: sign up page should have title 
+"facebook login or signup "
+
+req 4: 
+
+sign up page should be located in www.facebok.com
+domain 
+
+req 5: 
+the year in the dropdown should 1905 to 
+current year 
+
+req 6 : 
+
+mobile number should have 10 digits 
+
+req 7 : 
+
+password must have one capital case, 
+one special character 
+
+req 8 : 
+
+if any user fill up the form and internet get 
+disconnected after clicking sign, it should 
+not enter any data to database 
+developer - 
+
+tester - 
+
+
+
+Test Case - manual test case 
+10 test case 
+500 test case - 20000 test case 
+Test script - automation test script 
+
+why automated test scripts 
+1. regression testing 
+2. data driven  testing - 100 
+3. cross browser - environment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+info
+
+user>foldername>foldername
+
+C:\\Users\\Agile1Tech
+
+user\\agile1tech\\automationTesting\\chromedriver
+
+Class will start 12:20 PM 
+
+finding web elements 
+
+attributes and value 
+
+first name text box 
+
+attributes and value
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="lastname" value="" aria-required="true" 
+placeholder="" aria-label="Last name" id="u_0_h">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
