@@ -26,24 +26,26 @@ public class facebookSignUP {
 		
 		//driver.get("https://www.facebook.com/");
 		
-		driver.navigate().to("https://www.facebook.com/");
 		
-		Thread.sleep(2000);
+		  driver.navigate().to("https://www.facebook.com/");
+		 
+		  Thread.sleep(2000);
+		 
 		
-		// entering value in first name text box 
+		//entering value in first name text box 
 		
 		// data type in selenium called web element 
 		
-		/*
-		 * WebElement firstName = driver.findElement(By.id("u_0_f"));
-		 * 
-		 * firstName.sendKeys("Michael"); Thread.sleep(1000); firstName.clear();
-		 * 
-		 * // enting value for last name text box
-		 * 
-		 * WebElement lastName = driver.findElement(By.name("lastname"));
-		 * lastName.sendKeys("Jackson");
-		 */
+		
+		 WebElement firstName = driver.findElement(By.id("u_0_f"));
+		  
+		 firstName.sendKeys("Michael"); Thread.sleep(1000); firstName.clear();
+		 
+		 // Entering value for last name text box
+		  
+		  WebElement lastName = driver.findElement(By.name("lastname"));
+		  lastName.sendKeys("Jackson");
+		 
 		
 		String url = driver.getCurrentUrl();
 		
@@ -68,7 +70,7 @@ public class facebookSignUP {
 		
 		String liteTtitle = driver.getTitle();
 		
-		System.out.println(liteTtitle );
+		System.out.println(liteTtitle);
 		
 		
 		

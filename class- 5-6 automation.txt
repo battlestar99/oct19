@@ -250,17 +250,45 @@ finding web elements
 attributes and value 
 
 first name text box 
+locator 
+attributes and value of attributes 
 
-attributes and value
 <input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
 name="lastname" value="" aria-required="true" 
 placeholder="" aria-label="Last name" id="u_0_h">
 
+input is a tag - 
+
+sign up button 
+
+<button type="submit" class="_6j mvm _6wk _6wl _58mi _3ma _6o _6v" 
+name="websubmit" id="u_0_w">Sign Up</button>
+
+8 locating tecniques - 
+
+These 4 can be used for any web elements 
+id
+name
+xpath
+css selector 
+
+these 4 have sepecial condition
+linktext - link / hyperlink that starts with an anchor tag "a" tag
+partial linktext - link / hyperlink that starts with an anchor tag "a" tag
+
+these 2 are for finding group of web elemtns - finelements 
+tagname
+class name
 
 
+Lunch Break 
+Class will start at 2:10 PM 
+implicit wait - all the weblements of the page is loaded, before we move 
+forward to find any web elements 
 
+thread.sleep - stop the code for certain amount of time 
 
-
+explicit wait - 
 
 
 
