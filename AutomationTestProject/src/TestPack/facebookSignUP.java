@@ -34,19 +34,44 @@ public class facebookSignUP {
 		
 		// data type in selenium called web element 
 		
-		WebElement firstName = driver.findElement(By.id("u_0_f"));
+		/*
+		 * WebElement firstName = driver.findElement(By.id("u_0_f"));
+		 * 
+		 * firstName.sendKeys("Michael"); Thread.sleep(1000); firstName.clear();
+		 * 
+		 * // enting value for last name text box
+		 * 
+		 * WebElement lastName = driver.findElement(By.name("lastname"));
+		 * lastName.sendKeys("Jackson");
+		 */
 		
-		firstName.sendKeys("Michael");
-		Thread.sleep(1000);
-		firstName.clear();
+		String url = driver.getCurrentUrl();
 		
-		// enting value for last name text box
+		System.out.println(url);
 		
-		WebElement lastName = driver.findElement(By.name("lastname"));
-		lastName.sendKeys("Jackson");
+		String title = driver.getTitle();
+		System.out.println(title);
 		
 		
-
+		WebElement facebookLitelink = driver.findElement(By.linkText("Facebook Lite"));
+		
+		String liteText = facebookLitelink.getText();
+		
+		System.out.println(liteText);
+		
+		
+		facebookLitelink.click();
+		
+		String liteUrl = 	driver.getCurrentUrl();
+		
+		System.out.println(liteUrl );
+		
+		String liteTtitle = driver.getTitle();
+		
+		System.out.println(liteTtitle );
+		
+		
+		
 	}
 
 }
