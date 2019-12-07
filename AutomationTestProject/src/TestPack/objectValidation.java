@@ -28,7 +28,7 @@ public class objectValidation {
 	//	boolean loginButtonPresent = loginButton.isDisplayed();
 		boolean signupButtonPresent = signupButton.isDisplayed();
 		
-		
+		driver.findElement(By.xpath("//*[@id=\"u_0_a\"]/div[3]/a")).click();
 		
 		
 	//	System.out.println(loginButtonPresent);

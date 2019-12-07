@@ -293,9 +293,214 @@ explicit wait -
 
 
 
+Good Morning
+Class Will start 11:15 AM
+
+Questions - 
+
+1. returns and print 
+system.out.println(dfhl)
+return - 1 output
+2. jar files - 
+100 functions - non runnable - jar files - carcontrol library - java zipped file 
+500 functions - non runnable - jar files - selenium library 
+
+java documentations - 
 
 
 
+3. weblement 
+data type is similar to a non-runnable class
+
+data type created in selenium libraries 
+int, String, boolean, double, char, float 
+4. setup - selenium 
+
+2 jar files - server standlone-selenium java 
+add it to the build path 
+browser driver - chrome driver 
+
+system.setproperty("webdrver.ie.driver","c://iddriver.exe")
+
+webdriver driver = new internetexploereredriver();
+
+5. selenium 
+
+
+
+Application Layers- 
+
+2 layers 
+3 layers 
+
+Functional Testing Scenerios - 
+
+brief : 
+
+1. java setup - jdk+eclipse 
+
+2. java basics - class, variables, datatype, if/else, for loop 
+
+3. java basics - functions - runnable class, non runnable 
+how to create and how to use functions 
+
+4. selenium library - how to setup librarys - jar files 
+browser driver - chrome driver 
+
+5. selenium functions - interacting with the browser 
+Functional testing - BRD 
+FRD 
+Testing the functionlities of the application 
+
+Requirments - 
+
+Testing - pass/fail 
+expected result - actual result 
+matches - pass
+fail 
+
+Wednesday - 7PM - 830 PM 
+
+Class will start 12:35 PM 
+
+
+How To find web elments or web objects 
+
+web elements - attributes - value of the attributes 
+
+id = value of the id
+
+locating tecniques 
+primary attributes 
+id
+name 
+
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" 
+placeholder="Email or Phone Number" aria-label="Email or Phone Number",
+count='1'>
+
+text box - input
+drop down- select 
+button - button
+link - a 
+
+syntax 
+xpath 
+using the attributes of the web elements 
+relative xpath
+//tagname[@attribute='value']
+//*[@attribute='value']
+
+//input[@count='1']
+//input[@name='email']
+
+css selector 
+tagname[attribute="value"]
+[attribute='value']
+
+
+//*[@id="u_0_a"]/div[1]/div[1]/input
+
+absolute xpath - depending on the location of the web elements, that can be 
+changes due to design changes
+
+/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+
+locating tecniques - links - a 
+linktext 
+partial link text 
+
+Finding multiple web elements 
+tagname
+clssname
+
+driver.findlements(By.tagname("input"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+responsibilities 
+
+
+1. validate the requirements - manulay/automated test scripts 
+2. test case - test scripts,automation test case 
+3. test plan, test strategy, traciblity matrix 
+4. smoke - sanity - regression- uat - release 
+5. agile/scrum - sprints - sprint 1 ............sprint 6 
+3 months release - 2 weesk sprint 
+
+relases - 
+
+1. new module - enhancement
+2. modification 
+3. bug fix
+
+
+ 
 
 
 
