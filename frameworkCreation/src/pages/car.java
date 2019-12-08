@@ -2,25 +2,26 @@ package pages;
 
 public class car {
 	
-	int num; 
 	
 	public car(int x) {
 		
-		num=x;
+	System.out.println("creating an object of the class");	
 		
-		System.out.println(num);
+	}
+	
+	public car(String x) {
+		System.out.println("string constructor");	
+		
 		
 	}
 	
 	public car() {
 		
-		System.out.println("constructor with no input");
+		System.out.println("no input constructor");	
 		
 		
 	}
 	
-	
-	// constructor overloading 
 	
 	
 	

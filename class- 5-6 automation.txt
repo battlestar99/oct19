@@ -417,6 +417,51 @@ clssname
 
 driver.findlements(By.tagname("input"))
 
+Finding the weblements in our test scripts 
+
+weblement only works withthin the test scripts 
+we need to find webelements again and again as long as we need to use 
+it in different test scripts 
+5 different test scripts - same sign up button 
+1. its not efficient - 5 times 
+2. locating tecniques change - we need fix it in 5 different places 
+
+5 web elements - 20 different test scripts 
+20 test scripts are going to fail
+
+
+object driven framework - 
+seperating web objects from our test scripts 
+page object model - non runnable class - create functions to find web elements  
+page factory 
+
+java - oop 
+constructor - is a tecniques in oop to setup initial value for some variable 
+get executed when you create an object 
+functions - properties 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

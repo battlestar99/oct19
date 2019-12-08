@@ -6,11 +6,13 @@ public class testRunbasic {
 
 	public static void main(String[] args) {
 		
+		car c = new car(45);
+		car d = new car(100);
+		car e = new car(200);
 		
-		car c = new car(12);
-		car d=new car();
-		car e=new car(17);
-		car a = new car();
+		car cd=new car("test");
+		
+		car z=new car();
 
 	}
 

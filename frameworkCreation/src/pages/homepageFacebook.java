@@ -3,25 +3,24 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class homepageFacebook {
 	
 	WebDriver driver ; 
 	
-	public homepageFacebook(WebDriver tdriver) {
+	
+	public homepageFacebook(WebDriver x ) {
 		
-		driver =tdriver; 
-		
+	driver=x;
 		
 	}
 	
-	
-	
-	
-	
+
 	public WebElement getFirstName() {
 		
-		 WebElement firstName = driver.findElement(By.id("u_0_f"));	
+		 WebElement firstName = driver.findElement(By.id("u_0_f"));
+		
 		return firstName;
 		
 	}

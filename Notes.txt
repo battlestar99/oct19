@@ -210,9 +210,27 @@ get("www.google.com")
 ifvisible
 
 
-anik@agile1tech.com 
+Page Object Model / Object driven framework 
 
-wednesday 2-5 
+seperating web elements from the test scripts - object driven framework 
+
+1. we can use the webelements as many times required in different test scripts 
+2. if any locating tecnique changes - we need to change it in just one place 
+
+
+
+constructor/method overloading - local and global variable 
+
+public returntype nameofthefucntion(){
+
+// write the function
+
+}
+
+public void test(int x)
+local variable and global variable
+method overloading 
+this keyword
 
 
 
