@@ -39,7 +39,12 @@ public class homepageFacebook {
 		
 	}
 	
-	
+	public WebElement getmonthdropdown() {
+		
+		 WebElement month=driver.findElement(By.xpath("//*[@id=\"month\"]"));
+		return month;
+		
+	}
 	
 	
 	

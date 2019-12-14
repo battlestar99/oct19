@@ -1,0 +1,196 @@
+Class will start 11:15 
+
+enabled - true or false
+click - will click to the button 
+
+1. there should be a signup button with the text "Sign up" and user should be 
+able to click to the button 
+
+test case 
+
+read what is written in the button
+and also check if the button is enabled 
+
+page object model - object driven framework 
+
+webelment getfirstname(){
+
+
+}
+
+one class for one web page 
+page{
+
+getmonthdd();
+webelement x = driver.findelement();
+
+
+}
+select ddmonth= new select(webelement);
+
+TestNG 
+
+main method of java - so we can run the test script
+page object model - to seperate test scripts from webelements 
+
+1. we can organize more specifically which is the part of test or not
+2. expected and actual results - we need a testing framework 
+3. Test results - HTML 
+4. data driven testing
+5. mutiple test in one test scripts
+
+junit - TestNG 
+
+1. library - jar file
+2. eclipse plugin for TestNG 
+
+Cucumber 
+1. library - jar files
+2. eclipse plugin for Cucumber
+
+
+
+
+
+
+
+
+
+
+real project structure 
+
+package 1 - all test scripts 
+package 2 - all page object model classes
+package 3 - utility classes 
+
+http://dl.bintray.com/testng-team/testng-eclipse-release/
+
+TestNG plugin for eclipse
+
+Annotations - come with one function - has its own sequence 
+
+1 Test Sctipts - 
+
+
+@BeforeTest - prerequisite of the tests 
+@Beforemethod 
+@Test1 - execute one test
+@Aftermethod
+@Beforemethod 
+@Test2 - execute another test
+@Aftermethod
+@AfterTest - after the test execution 
+
+
+
+beforeSuite
+beforeclass
+beforetest
+beforemethod - whatever you need to do before each test
+test
+
+
+
+
+
+Test - you test based on requirments
+
+you can tell something is a bug if a test fails 
+
+pass/fails 
+
+comparing expected vs actual 
+
+
+
+
+
+class testscripts 
+- validate all home page links 
+
+10 tests - 
+
+100 test scripts - 100 java classes 
+230 tests - @test annotations 
+
+230 test cases 
+100 test scripts - 230 test cases 
+
+1. annotations - sequence
+2. test - alphabetically, priority, enable
+3. assertions - 
+4. creating test suite - testng xml 
+5. creating parameterized testing - xml 
+
+hard assertions - 
+expected vs actual 
+
+
+package for test scripts 
+package for page object model 
+package for utility classes 
+
+use framework - TestNG Cucumber 
+
+framework create
+object driven - seperating web elements from test scripts
+data driven - seperating test data from test scripts 
+hybrid famework
+keyword driven - seperating non-test data from test scripts 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

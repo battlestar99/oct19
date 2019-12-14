@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10299" started-at="2019-12-14T18:02:34Z" finished-at="2019-12-14T18:02:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10299" started-at="2019-12-14T18:02:34Z" finished-at="2019-12-14T18:02:45Z">
+      <class name="com.agile1tech.tests.validateHomePage">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.agile1tech.tests.validateHomePage@402f32ff]" name="setupTest" is-config="true" duration-ms="9444" started-at="2019-12-14T13:02:34Z" finished-at="2019-12-14T13:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.agile1tech.tests.validateHomePage@402f32ff]" name="validateTitle" duration-ms="14" started-at="2019-12-14T13:02:44Z" finished-at="2019-12-14T13:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.agile1tech.tests.validateHomePage@402f32ff]" name="finishTest" is-config="true" duration-ms="829" started-at="2019-12-14T13:02:44Z" finished-at="2019-12-14T13:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- com.agile1tech.tests.validateHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
