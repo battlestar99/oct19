@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression Tests for Sprint 12.2">
+<test name="Progressive Test Suites">
+
+
+<classes>
+
+<class name="com.progressive.Tests.validateHomePage"></class>
+<class name="com.progressive.Tests.validateInsOptions"></class>
+<class name="com.progressive.Tests.validateRV"></class>
+
+
+</classes>
+
+
+
+
+
+</test>
+</suite>

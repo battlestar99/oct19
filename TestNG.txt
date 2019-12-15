@@ -142,6 +142,89 @@ keyword driven - seperating non-test data from test scripts
 
 
 
+TestNG / Cucumber 
+
+1. organization of our code 
+2. assertions 
+3. creating a report 
+4. creating test suites - run multiple test cases 
+5. data driven testing - parameterized testing concept 
+6. parellel testing
+7. cross browser testing 
+
+Test Scnerio : 
+
+1. validating all the insurance options are available in the home page 
+2. validate the url and title of the home page 
+3. validate all the header options are displayed, enabled and clickable 
+4. validate if the right phone number is in the home page 
+5. validate we can navigate to a new quote from home page 
+6. validate we can fill up the get a quote page form 
+
+
+If assertion fails - that is only test failure 
+
+any other error or exception is code failure - 
+
+close the ticket 
+open - bug 
+in progress - 
+this bug is fixed 
+retest
+
+Automation Testing - Things to know
+
+1. Technical - how you are finding your webelements, 
+how you are interacting with the browser 
+
+2. how to organize your code and collaborate in a team as a programmer 
+
+Test Suite - collection of tests/test cases 
+
+XML - Test Suite
+
+version 12 > version 13 - 3 months - 
+1. enhancement - html+css , bootstrap
+2. modification 
+3. bug fix 
+
+minimum crierion 
+
+
+
+release planning - sprint 1 
+
+next 3 months - december 29th - PI planning, release planning 
+300 test cases 
+backlogs - 
+6 sprints 
+sprint 1 - smoke testing - 30 new test cases
+sprint 2 - smoke testing , - 30 
+sprint 3 - regression  - 330 
+sprint 4 - regression 
+sprint 5 - regression
+sprint 6 - UAT - 20 
+
+relase planning meething 13 > 14 
+ 
+50 
+330+50 = 380 test cases 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

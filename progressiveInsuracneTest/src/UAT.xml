@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="UAT Tests for Release 13.0">
+<test name="UAT Tests">
+
+
+<classes>
+
+<class name="com.progressive.Tests.validateHomePage">
+<methods>
+<include name="validateTitle"/>
+</methods>
+</class>
+
+
+
+</classes>
+
+
+
+
+
+</test>
+</suite>

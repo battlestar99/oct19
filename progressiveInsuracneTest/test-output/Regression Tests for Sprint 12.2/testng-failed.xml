@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Tests for Sprint 12.2]">
+  <test name="Progressive Test Suites(failed)">
+    <classes>
+      <class name="com.progressive.Tests.validateRV">
+        <methods>
+          <include name="validateRVSignUpFlow"/>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.progressive.Tests.validateRV -->
+      <class name="com.progressive.Tests.validateHomePage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.progressive.Tests.validateHomePage -->
+      <class name="com.progressive.Tests.validateInsOptions">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.progressive.Tests.validateInsOptions -->
+    </classes>
+  </test> <!-- Progressive Test Suites(failed) -->
+</suite> <!-- Failed suite [Regression Tests for Sprint 12.2] -->
