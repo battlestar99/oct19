@@ -59,7 +59,7 @@ public class validateHomePage {
 		
 	}
 	
-	@Test 
+	@Test(dependsOnMethods="validateURL") 
 	public void validateTitle() {
 		
 		String actualTitle = driver.getTitle();

@@ -212,6 +212,132 @@ relase planning meething 13 > 14
 
 
 
+Good Morning 
+
+Class will start 11:10 AM 
+
+
+Topics To Discuss - 
+Testing Framework - data, object, keyword, hybrid
+TestNG - parameterization 
+Java - Object oriented Programming 
+
+Assertions - why and how 
+Test script - multiple test case - 100 - 200 test cases 
+Test case - manual test cases 
+
+Test Scnerio - Validating the application login for positive credentials - req 145 
+Test case - id, env, steps, pass/fail 
+
+Test - compare 
+actual values - after the test is executed 
+expected values - from the requirements - know expected values before the test
+compare actual vs expected - test pass / test fail 
+
+verification - smoke testing
+validate - 
+
+Assertequals (expected value, actual value) 
+
+
+- validate that an element should not be enabled 
+
+isenabled - false 
+
+assertfalse(false)
+
+
+
+Testing framework - 
+
+1. object driven framework - seperating web objects from test scripts 
+2. data driven framework - test data from test scripts 
+excel file - is generally used for big sets of data - 100 sets 5000 sets 
+parameterized testing - using testng for testing with 2-10 sets of data 
+cucumber data table - 2 - 500 sets of data 
+
+3. keyword - non test data - test scripts - 
+
+4. hybrid framework - object + data driven 
+
+framework 
+create - 
+use - TestNG, cucumber 
+
+Parameterized testing - 
+
+@parameter 
+
+TestNG - 
+
+1. annotations - sequences - priority - alphabatical order 
+beforetest, test, aftertest - beforemethod, aftermethod 
+
+2. assertions - why and how 
+
+3. enabled, dependonsonmethods 
+
+4. test results - html file - emailablereport.html 
+
+5. test suites - TestNG XML  - class test scripts, test ( methods) 
+
+6. parallel testing - 
+
+7. cross browser testing - 
+
+8. parameterized - data driven testing - passing data from the xml files 
+
+
+assertequals(boolean, boolean)
+
+assertrue(true)
+
+assertfalse(false)
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

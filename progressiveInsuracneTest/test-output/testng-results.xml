@@ -1,25 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="UAT Tests for Release 13.0" duration-ms="9990" started-at="2019-12-15T19:39:18Z" finished-at="2019-12-15T19:39:28Z">
+  <suite name="data driven testing for login" duration-ms="10317" started-at="2019-12-21T17:15:38Z" finished-at="2019-12-21T17:15:48Z">
     <groups>
     </groups>
-    <test name="UAT Tests" duration-ms="9990" started-at="2019-12-15T19:39:18Z" finished-at="2019-12-15T19:39:28Z">
-      <class name="com.progressive.Tests.validateHomePage">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.progressive.Tests.validateHomePage@5ae9a829]" name="setupTest" is-config="true" duration-ms="7141" started-at="2019-12-15T14:39:18Z" finished-at="2019-12-15T14:39:25Z">
+    <test name="mercury login test" duration-ms="10317" started-at="2019-12-21T17:15:38Z" finished-at="2019-12-21T17:15:48Z">
+      <class name="com.progressive.Tests.mercuryLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.progressive.Tests.mercuryLogin@5ae9a829]" name="setupTest" is-config="true" duration-ms="6950" started-at="2019-12-21T12:15:38Z" finished-at="2019-12-21T12:15:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.progressive.Tests.validateHomePage@5ae9a829]" name="validateTitle" duration-ms="12" started-at="2019-12-15T14:39:25Z" finished-at="2019-12-15T14:39:25Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.progressive.Tests.mercuryLogin@5ae9a829]" name="loginTest" duration-ms="409" started-at="2019-12-21T12:15:45Z" finished-at="2019-12-21T12:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234++]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome: Mercury Tours]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.progressive.Tests.validateHomePage@5ae9a829]" name="afterTest" is-config="true" duration-ms="2827" started-at="2019-12-15T14:39:25Z" finished-at="2019-12-15T14:39:28Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.progressive.Tests.mercuryLogin@5ae9a829]" name="aftertest" is-config="true" duration-ms="2940" started-at="2019-12-21T12:15:45Z" finished-at="2019-12-21T12:15:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.progressive.Tests.validateHomePage -->
-    </test> <!-- UAT Tests -->
-  </suite> <!-- UAT Tests for Release 13.0 -->
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.progressive.Tests.mercuryLogin -->
+    </test> <!-- mercury login test -->
+    <test name="mercury login test negative data" duration-ms="10317" started-at="2019-12-21T17:15:38Z" finished-at="2019-12-21T17:15:48Z">
+      <class name="com.progressive.Tests.mercuryLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.progressive.Tests.mercuryLogin@735b5592]" name="setupTest" is-config="true" duration-ms="6944" started-at="2019-12-21T12:15:38Z" finished-at="2019-12-21T12:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.progressive.Tests.mercuryLogin@735b5592]" name="loginTest" duration-ms="432" started-at="2019-12-21T12:15:45Z" finished-at="2019-12-21T12:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tesdfhldjk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome: Mercury Tours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.progressive.Tests.mercuryLogin@735b5592]" name="aftertest" is-config="true" duration-ms="2920" started-at="2019-12-21T12:15:45Z" finished-at="2019-12-21T12:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.progressive.Tests.mercuryLogin -->
+    </test> <!-- mercury login test negative data -->
+    <test name="mercury login test positive data" duration-ms="10317" started-at="2019-12-21T17:15:38Z" finished-at="2019-12-21T17:15:48Z">
+      <class name="com.progressive.Tests.mercuryLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.progressive.Tests.mercuryLogin@548a9f61]" name="setupTest" is-config="true" duration-ms="6956" started-at="2019-12-21T12:15:38Z" finished-at="2019-12-21T12:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.progressive.Tests.mercuryLogin@548a9f61]" name="loginTest" duration-ms="451" started-at="2019-12-21T12:15:45Z" finished-at="2019-12-21T12:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testlink1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login Page]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Page] but found [Welcome: Mercury Tours]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Page] but found [Welcome: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.progressive.Tests.mercuryLogin.loginTest(mercuryLogin.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.progressive.Tests.mercuryLogin@548a9f61]" name="aftertest" is-config="true" duration-ms="2898" started-at="2019-12-21T12:15:45Z" finished-at="2019-12-21T12:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.progressive.Tests.mercuryLogin -->
+    </test> <!-- mercury login test positive data -->
+  </suite> <!-- data driven testing for login -->
 </testng-results>

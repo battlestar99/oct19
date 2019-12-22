@@ -1,0 +1,65 @@
+Java OOP 
+object oriented programming - 
+
+procedural programming 
+object oriented programming 
+
+class and object - 
+class - is a design or prototype 
+
+properties - attribute - what it has 
+functions/methods - what it can do 
+
+object - 
+
+human being - person 
+
+name, email, ssn, email address, money
+
+functions 
+walk, run, drive, 
+Concepts 
+class
+object
+functions
+properties
+constructor - constructor overloading
+functions - functions overloading 
+local and global variables
+static and non-static properties and functions 
+
+
+tomorrows 
+inheritance - method overriding 
+interface
+abstract class
+access modifiers 
+java excpetion
+
+Class will start 11:15 AM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
