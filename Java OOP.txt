@@ -36,7 +36,191 @@ abstract class
 access modifiers 
 java excpetion
 
-Class will start 11:15 AM 
+Object oriented programming - 
+java 
+C# 
+python , C 
+
+class - design - properties , functions 
+global variables 
+functions / methods - input, system, output 
+5mb - 2gb 
+object - 
+
+bankaccount - attributes, functionlities 
+facebook - attributes, functionlities 
+
+webdriver driver = new chromedriver(); 
+
+
+webdriver driver1=new chromedriver(); 
+
+Access Modifiers - 
+will allow us to use properties and functions 
+
+no modifier - get access inside class, outside class but not outside package
+public - get access , inside class, outside class and outside package
+private - only get access inside class 
+protected - get access inside class, outside class but not outside package
+
+
+checkdeposit(){
+100 lines of codes
+
+}
+
+checkrouting(){25}
+checkdue(){25}
+
+static 
+non-static
+
+static void open(){}
+
+parent - child relationship between the classes 
+inheritence 
+
+bankaccount - parent - super class
+
+checkingaccount - child - sub class - get everything from bank account 
+
+checkingaccountOfva - 
+
+
+savingaccount - child - sub classes - get all the functions and properties 
+
+
+method overriding - child class and parent class have same functions
+child class object will use its own function 
+
+abstract class - we can not create an object of the class - 
+we can inherite the class and create object of the subclass which can have
+the properties and functions 
+
+class will start 12:30
+
+webdriver driver=new chromedriver(); sendkeys
+webdriver driver=new firefoxdriver(); type
+
+inteface - doest have any real function, any class that implements the interface must 
+have to implement the funtions 
+
+abstract class - can not create any object - through the sub classes - we can 
+create implemented functions 
+
+interface - use it through implemented classes - can not create any implemented
+functions 
+
+OOP - java 
+
+encapsulation - data and action togehter in class - properties and function
+abstraction - abstract class - private 
+polymorphism - ca - checkingaccount , bankaccount 
+car 
+sedan - subclass
+altima - subclass 
+
+altima al=new altime(); 
+
+al is an altima, also a sedan, and also a car 
+inheritance - super and sub class relationship 
+that is inheritanc e
+
+overrding - sub class and super class - inheritance 
+overloading - two functions same name but different inputs 
+
+exception and error 
+
+error - you can not compile or run your code before fixing it 
+
+exception - run time error - 
+
+
+driver.get("dfasdf");
+
+driver.findlement(By.xpath("dfdlfj')) - no such element exception 
+
+compilation - run 
+
+
+exception - 
+nullpointerexcpetion 
+
+Test Fail - Code Fail 
+
+assertionexception - test failed 
+any other type of exceptions - code fails 
+
+
+nosuchelementexception - 
+
+car 
+
+honda - 
+
+accord- 
+
+honda h = new honda(); 
+
+h is a honda 
+h is also car 
+
+- how to debug application 
+
+print
+findelement ().sendkeys("test")
+print
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

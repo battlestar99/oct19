@@ -1,0 +1,180 @@
+Class will start 11:15 AM 
+
+ https://www.gotomeet.me/agile1tech-meetup 
+
+meeting id 
+
+186-085-277
+
+regression test suite - 200 tests 
+
+194 - passed 
+6 - failed 
+
+expected : web development
+actual : web development test 
+
+1. log the defect 
+2. talk with your team - dev - team lead 
+
+
+scrum meeting - 
+
+
+
+requirment - brd, use cases - user stories 
+access to the application 
+
+use cases - how you are going to use the application 
+test cases - how you are going to test the application 
+
+
+stories - tasks - backlogs 
+
+developer brd, use cases to develop
+tester brd, use cases to test the software - test cases 
+
+ad-hoc testing 
+
+test cases - 200 test cases -
+1 - 100  
+regression - 200 test cases - 400 test cases 
+cost friendly - efficient 
+5 manual - 1 week 
+
+1. regression - 
+2. data driven testing - 
+3. different env - diff browser 
+4. avoid human error 
+
+
+jira - 
+project managment - agile-scrum - 
+test managment - 
+test case, test plan, test results, tracibility matrix, test strategy
+
+
+
+
+
+
+TestNG - 
+
+
+cucumber- BDD - behavoiur driven development 
+
+1. ideas to implment 
+2. communication challange 
+3. requirments understanding for testing 
+
+non technical part - test case - features 
+
+technical part - automation testing - step definition 
+
+
+steps 
+1. navigating to the www.dflfdj.com
+2. enter the value to the password text box 
+3. entering value to the username text box
+
+Gherkin language: keywords 
+
+
+feature
+scnereio
+background 
+
+given - pre requirement 
+when - action 
+then - feedback
+and - just adding more when and then
+but - if you expect negative feedback 
+
+
+Testing a login panel - 
+feature : login the feature
+
+scnerio : testing the login panel with positive credentials 
+
+given user is on the login page
+when user enters right user name
+and user enters right password 
+then user should be able to login 
+and user should be in the portal home page 
+
+
+scnerio : testing the login panel with negative credentials 
+
+given user is on the login page
+when user enters wrong user name
+and user enters wrong password 
+then user should be able to login 
+and user should be in the portal home page 
+
+
+
+cucumber libraries - 10 libraries 
+cucumebr plugin - 
+
+
+
+
+
+
+cucumber 
+
+1. steps of the feature and the parameter of the annotation in step def
+have to match exaclty 
+
+2. we can not implement same step multiple time in our project 
+
+Class will start 2:00 PM 
+
+scenerio - test cases 
+
+created - data driven, object driven, hybrid 
+used - TestNG, cucumber 
+
+
+@Test - one unit of test - 1 test case 
+Scenerio : one unit of test - 1 test case
+
+Data driven Testing using cucumber -  
+
+feature - gherkin lanaguage to write the test 
+step def - 
+page object model - 
+
+
+test runner - test suite, create report - junit 
+
+hook
+tags 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

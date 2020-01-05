@@ -32,12 +32,7 @@ public class bankAccount {
 		
 		
 	}
-    public void depositMoney(int x) {
-		
-		
-		
-	}
-	
+    
 	
 	
 

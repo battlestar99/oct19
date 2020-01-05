@@ -1,6 +1,8 @@
 package mainRun;
 
 import javaOOP.bankAccount;
+import javaOOP.checkingAccount;
+import javaOOP.savingAccount;
 
 public class bankRun {
 	
@@ -24,6 +26,16 @@ public class bankRun {
 		user1.accountEmail="web@gmail.com";
 		user3.accountName="Bob Vance";
 		System.out.println(user1.accountEmail);
+		
+		
+		checkingAccount ca=new checkingAccount();
+		
+		ca.checkingAccountNumber="6876fdhkjf";
+		
+		savingAccount sa=new savingAccount(); 
+		
+		ca.depositMoney();
+		
 		
 		
 		
