@@ -1,0 +1,127 @@
+
+Class will start 11:10 AM 
+
+
+code environment setup - local environment where you write your code 
+java - jdk, selenium, eclipse, cucumber, testng 
+Code organization, manage and share
+writing code in your local machine and then push it to the repository 
+github, bitbucket
+you are running tests in local machine, 
+Application environments - we are not setting up or managing the app environment
+devops , system admin 
+dev - agile1tech.com/dev , 192.168.22.225 
+test - agile1tech.com/test , 192.168.22.223 
+regression
+UAT
+production environment - end user will get access to the application
+agile1tech.com
+Application access - VPN, no-vpn, vmware
+Starting working in a project - access required
+
+
+Story in jira - you are a tester in the team - release 
+new release - enhancement, modification, bug fix 
+
+5 X 10 = 42 
+
+1 story point - amount of work 1 person can do in 1 day 
+jira stories - backlogs - 
+
+sprint - 1 - 10 story point 
+ we can run some previous tests - manual, automation- 4 
+you can create a coding envioroment - 3 
+creating a test plan - 3 
+
+sprint - 2 
+smoke testing - test environment - 5 
+automation testing - 5 story points 
+
+sprint - 3 
+smoke testing - 7 
+creating some new test cases - 3 
+
+sprint - 4 
+create automated test script - 10 
+
+sprint - 5 
+regression testing - 10 
+
+sprint - 6 
+uat - 10 
+
+release - 
+
+new release - release planning 
+
+Automation Tester - how you organize your code - local machine - 
+
+1 testing team - you always have 1 maven project
+
+TestNG - 
+testscripts - 1 
+page object model - 1
+utility classes - 
+xml files - test suites 
+
+
+Cucumber 
+
+feature - 1
+step def - 1
+test runner - 1
+page object model - 1 - 12 
+
+
+
+user should navigate to agile1tech.com/cart page 
+user shoule see the title agile1tech cart
+
+validate the url is agile1tech.com/cart 
+Why Maven: 
+
+1. java project is just a folder - it is not importable 
+2. version of libraries - 2.53, 3.3 - one version of all the libraries are required 
+dependence managment - libraries 
+gettext
+3. building code means - compiling code 
+4. sharing our code - CI/CD - jenkins - build managment system 
+
+Maven setup - 
+
+1. project from scratch - you need to create a maven project 
+2. already have maven project - you need to download it from the repository 
+and just start using it 
+
+local - in our local computer 
+remote - maven repository online 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

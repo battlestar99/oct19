@@ -1,0 +1,6 @@
+Manual Testing - 
+
+classes 
+jira , alm 
+
+200 test cases - 
