@@ -96,6 +96,72 @@ and just start using it
 local - in our local computer 
 remote - maven repository online 
 
+git/github 
+
+1. sharing our code - repository - share with our other programmers 
+2. version control - 
+
+git is a version control system - using git we can push code to the repository 
+github - is the code repository - bitbucket 
+
+version 1 
+version 2 
+version 3 
+
+
+github - remote repository - so we can share code 
+
+computer - local repository - if we make a folder as a git repo we can track everything
+happening inside the folder 
+
+
+git push - updating the remote repository 
+git pull - updating local repository with the code
+
+clone/download 
+
+
+
+1 maven project - 1 POM.xml 
+
+project object model  - dependency managment 
+
+git version control - github, bitbucket 
+
+local is ahead of remote by 2 commits 
+
+remote can be ahead of your local by 3 commits 
+
+
+master 
+b1
+b2
+
+
+
+we will start 2:05 PM 
+
+CI/CD pipeline 
+
+contineous integration and contineous development 
+
+jekins 
+
+1. CI/CD pipeline 
+2. jenkins is a remote server - 
+
+200 tests - 2 test failed
+
+jenkins will fetch the code from repository and run it in the server
+
+
+
+
+
+
+
+
+ 
 
 
 

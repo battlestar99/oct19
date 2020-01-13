@@ -17,13 +17,7 @@ WebDriver driver ;
 	}
 	
 	
-	public WebElement getFirstName() {
-		
-		 WebElement firstName = driver.findElement(By.name("firstName"));
-		
-		return firstName;
-		
-	}
+	
 	
 	public WebElement getlastnameName() {
 		
@@ -33,4 +27,12 @@ WebDriver driver ;
 		
 	}
 
+	
+	public WebElement getFirstName() {
+		
+		 WebElement firstName = driver.findElement(By.name("firstName"));
+		
+		return firstName;
+		
+	}
 }
